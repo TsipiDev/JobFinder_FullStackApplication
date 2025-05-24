@@ -1,0 +1,102 @@
+﻿/* styles.css */
+
+/* General body tweaks */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Container tweaks */
+.container {
+    max-width: 900px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+/* Headers */
+h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #007bff;
+    text-align: center;
+}
+
+/* Job cards */
+#job-list .card {
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+    #job-list .card:hover {
+        box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+    }
+
+/* Buttons */
+.btn {
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+    .btn-danger:hover {
+        background-color: #b02a37;
+    }
+
+/* Form inputs */
+input.form-control, textarea.form-control {
+    border-radius: 10px;
+    border: 1.5px solid #ced4da;
+    font-size: 1rem;
+    padding: 12px 15px;
+    transition: border-color 0.3s ease;
+}
+
+    input.form-control:focus, textarea.form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0,123,255,0.5);
+        outline: none;
+    }
+
+/* Form buttons center */
+form button {
+    display: block;
+    margin: 25px auto 0;
+    width: 150px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    #job-list .card {
+        margin: 10px auto !important;
+        width: 90% !important;
+    }
+}

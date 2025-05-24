@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Job</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/config.js"></script>
+    <script src="js/jobs.js"></script>
+</head>
+<body class="container mt-4">
+    <h1>Create Job</h1>
+    <form id="jobForm">
+        <input class="form-control mb-2" placeholder="Job Name" id="jobName" required>
+        <textarea class="form-control mb-2" placeholder="Description" id="jobDescription" required></textarea>
+        <input class="form-control mb-2" placeholder="Company Info" id="companyInformation" required>
+        <input class="form-control mb-2" placeholder="Application Instructions" id="applicationInstructions" required>
+        <input class="form-control mb-2" placeholder="Category" id="category" required>
+        <input class="form-control mb-2" placeholder="Hours" id="hours" required>
+        <input class="form-control mb-2" placeholder="Type" id="type" required>
+        <input class="form-control mb-2" placeholder="Job Date (YYYY-MM-DD)" id="jobDate" required>
+
+        <button class="btn btn-success">Create Job</button>
+    </form>
+
+    <script>
+        document.getElementById('jobForm').addEventListener('submit', async e => {
+            e.preventDefault();
+            const data = {
+                jobName: jobName.value,
+                jobDescription: jobDescription.value,
+                companyInformation: companyInformation.value,
+                applicationInstructions: applicationInstructions.value,
+                category: category.value,
+                hours: hours.value,
+                type: type.value,
+                jobDate: jobDate.value
+            };
+            await createJob(data);
+        });
+    </script>
+</body>
+</html>
+

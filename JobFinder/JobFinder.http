@@ -1,0 +1,21 @@
+@JobFinder_HostAddress = https://localhost:7190/api/Jobs
+
+GET {{JobFinder_HostAddress}}
+Accept: application/json
+
+###
+POST {{JobFinder_HostAddress}}
+X-Api-Key: xxxx
+Accept: application/json
+Content-Type: application/json
+{
+   "jobName": "develoiper",
+  "jobDescription": "string",
+  "companyInformation": "string",
+  "applicationInstructions": "string",
+  
+  "category": 0,
+  "hours": 0,
+  "type": 0,
+  "jobDate": "2025-05-24"
+}
