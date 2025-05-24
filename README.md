@@ -115,7 +115,7 @@ For any questions or feedback, please reach out to:
 
 - Dimitris Vatousis  
 - Email: dimitrisvatoussis@gmail.com  
-- GitHub: [YourUsername](https://github.com/TsipiDev)
+- GitHub: [TsipiDev](https://github.com/TsipiDev)
 
 ---
 
