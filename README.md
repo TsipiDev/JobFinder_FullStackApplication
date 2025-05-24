@@ -1,7 +1,7 @@
 # JobFinder
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/YourUsername/JobFinder/dotnet.yml?branch=main)](https://github.com/YourUsername/JobFinder/actions)
+
 
 ## Overview
 
