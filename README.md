@@ -113,9 +113,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any questions or feedback, please reach out to:
 
-- Your Name  
-- Email: your.email@example.com  
-- GitHub: [YourUsername](https://github.com/YourUsername)
+- Dimitris Vatousis  
+- Email: dimitrisvatoussis@gmail.com  
+- GitHub: [YourUsername](https://github.com/TsipiDev)
 
 ---
 
