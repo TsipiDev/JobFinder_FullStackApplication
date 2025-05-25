@@ -78,7 +78,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YourUsername/JobFinder.git
+git clone https://github.com/TsipiDev/JobFinder_FullStackApplication.git
 cd JobFinder
 
 # 2. Update your DB connection string in appsettings.json
