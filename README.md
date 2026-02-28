@@ -1,4 +1,4 @@
-# 💼 JobFinder
+# JobFinder
 
 <p align="left">
   <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
@@ -15,11 +15,11 @@
   </a>
 </p>
 
-🚀 A full-stack job board application built with ASP.NET Core, HTML, CSS, and JavaScript.
+ A full-stack job board application built with ASP.NET Core, HTML, CSS, and JavaScript.
 
 ---
 
-## 📋 Overview
+## Overview
 
 **JobFinder** is a full-stack job board application that allows users to create, view, edit, and delete job listings. Built with **ASP.NET Core** on the back-end and a modern **HTML/CSS/JS** front-end, it demonstrates:
 
@@ -28,53 +28,53 @@
 - Entity Framework Core integration
 - CORS configuration
 
-🎓 Developed as a seminar coursework project to showcase best practices in full-stack web development.
+ Developed as a seminar coursework project to showcase best practices in full-stack web development.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔄 **CRUD** operations for job listings  
-- 🔐 RESTful API secured with API key authentication  
-- 🗃️ Entity Framework Core for robust DB management  
-- 🌐 CORS support for seamless front-end communication  
-- 📱 Responsive UI built with **Bootstrap 5**  
-- ⚡ Asynchronous front-end interactions via **Fetch API**  
-- ✅ Client & server-side validation with error handling  
-- 🧩 Clean, modular, and extendable code structure  
+-  **CRUD** operations for job listings  
+-  RESTful API secured with API key authentication  
+-  Entity Framework Core for robust DB management  
+-  CORS support for seamless front-end communication  
+-  Responsive UI built with **Bootstrap 5**  
+-  Asynchronous front-end interactions via **Fetch API**  
+-  Client & server-side validation with error handling  
+-  Clean, modular, and extendable code structure  
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
-### 🖥️ Backend
+###  Backend
 - `ASP.NET Core Web API (.NET 6+)`
 - `Entity Framework Core`
 - `SQL Server` / `SQLite`
 
-### 🎨 Frontend
-- `HTML5` 🟠
-- `CSS3` 🔵
-- `JavaScript (Vanilla)` 🟡
+### Frontend
+- `HTML5` 
+- `CSS3` 
+- `JavaScript (Vanilla)` 
 - `Bootstrap 5`
 
-### 🛠️ Tools & Utilities
+### Tools & Utilities
 - Visual Studio 2022  
 - Git & GitHub  
 - Postman (API testing)  
-- API key authentication 🔑  
+- API key authentication   
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
-### ✅ Prerequisites
+### Prerequisites
 - [.NET 6 SDK or later](https://dotnet.microsoft.com/download)  
 - Visual Studio 2022 or newer  
 - SQL Server or another compatible DB  
 - Node.js & npm *(optional, for package management)*
 
-### 🛠️ Setup Instructions
+### Setup Instructions
 
 ```bash
 # 1. Clone the repository
@@ -93,11 +93,11 @@ dotnet ef database update
 dotnet run
 ```
 
-🧪 Open the front-end HTML files (like `create-job.html`) in a browser or use a local server to test the UI.
+Open the front-end HTML files (like `create-job.html`) in a browser or use a local server to test the UI.
 
 ---
 
-## 🧭 Usage
+## Usage
 
 - Use the front-end form to **create**, **update**, and **delete** job listings  
 - Interactions are handled **asynchronously** via the Fetch API  
@@ -105,7 +105,7 @@ dotnet run
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 /JobFinder
@@ -122,30 +122,30 @@ dotnet run
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!  
-Fork the repo, make your changes, and open a pull request 🚀
+Fork the repo, make your changes, and open a pull request
 
 ---
 
-## 📄 License
+## License
 
-Licensed under the [MIT License](LICENSE) 📝
+Licensed under the [MIT License](LICENSE)
 
 ---
 
-## 📬 Contact
+## Contact
 
 Got feedback or questions?
 
-- 👤 Dimitris Vatousis  
-- 📧 dimitrisvatoussis@gmail.com  
-- 💻 GitHub: [@TsipiDev](https://github.com/TsipiDev)
+- Dimitris Vatousis  
+- dimitrisvatoussis@gmail.com  
+- GitHub: [@TsipiDev](https://github.com/TsipiDev)
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - Microsoft ASP.NET Core & EF Core Docs  
 - Bootstrap CSS Framework  
